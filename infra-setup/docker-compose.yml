@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+  couchbase-db:
+    image: couchbase/server:community-aarch64
+    ports:
+      - "8091:8091"
+      - "8092:8092"
+      - "8093:8093"
+      - "11210:11210"
